@@ -1,0 +1,30 @@
+.IconContext{
+    font-size: 2.4em;
+    color: #ececec;
+    transition: 0.2s;
+}
+
+.IconContext:hover{
+    color: #DD8B79;
+    font-size: 2.6em;
+}
+
+.Background {
+    width:100vw ;
+    height:100vh ;
+    background-repeat:no-repeat ;
+    background-position: center;
+    object-fit: cover;
+    position:fixed ;
+    z-index:-100 ;
+    opacity: 0.9;
+}
+
+@media only screen and (max-width:960px) {
+    .IconContext{
+        font-size:2.5em;
+    }
+    .IconContext:hover{
+        font-size: 3em;
+    }
+}
